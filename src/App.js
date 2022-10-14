@@ -5,6 +5,7 @@ import Favs from "./components/favs.js"
 import Home from "./components/home.js"
 import Europe from "./components/Europe.js"
 import Cbean from "./components/Caribbean.js"
+import Asia from "./components/Asia.js"
 import Places from "./components/places.js"
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
           <Route path="/places" element={<Places />}>
               <Route path="Europe" element={<Europe />}/>
               <Route path="Caribbean" element={<Cbean />}/>
-        
+              <Route path="Asia" element={<Asia />}/>
          </Route>
 
 
