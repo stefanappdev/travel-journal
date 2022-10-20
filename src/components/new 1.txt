@@ -1,0 +1,22 @@
+
+
+
+
+     
+            /*  <div id="favs" >
+
+                  <Link to="favs">
+
+                   <img  id="star-icon" src= "images/star-empty-red.png" />
+
+                  </Link>
+
+
+                </div>
+
+              
+          </div>*/
+		  
+		  
+		  
+		  //<Route path="/favs" element={<myFavs/>} />

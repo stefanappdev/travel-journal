@@ -1,0 +1,101 @@
+
+
+#main-app-nav{
+
+	display: inline-flex;
+	background-color: #f85e64;
+	width: 100%;
+	position: absolute;
+	padding-left: 500px;
+
+
+}
+
+#main-app-nav>div{
+
+margin-left: 50.1px;
+
+}
+
+
+.places-subnav{
+
+
+	position: absolute;
+	top: 150px;
+
+}
+
+
+
+h1{
+	position: absolute;
+	margin-top: 100px;
+	top: 200px;
+
+}
+
+
+
+
+img{
+
+height:250px;
+width:250px;
+
+	
+}
+
+
+
+#house-icon{
+
+height:100px;
+width:100px;
+
+}
+
+
+
+
+
+#star-icon{
+
+height:100px;
+width:100px;
+
+}
+
+
+#places-icon{
+
+height:100px;
+width:100px;
+
+}
+
+
+
+
+
+#favs{
+
+
+width: 50px;
+height: 100px;
+
+}
+
+#home{
+
+width: 50px;
+height: 100px;
+
+}
+
+#locations{
+
+width: 50px;
+height: 100px;
+}
+

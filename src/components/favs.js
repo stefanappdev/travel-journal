@@ -1,15 +1,24 @@
 import React from "react"
 
 
-function Favs(){
-
-	return(
 
 
-		<h1>this is the favourites page</h1>
 
-		)
 
+function myFavs(props){
+	
+	let res=""
+	props.isfav?res="images/star-filled.jpeg":res="images/star-empty.png";
+	
+	return (<div>
+	
+			
+	
+				<img src={res} />
+	
+	
+	</div>)
 }
 
-export default Favs;
+
+export default myFavs;

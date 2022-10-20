@@ -1,7 +1,7 @@
 import React from 'react';
 import{ BrowserRouter as Router,Routes,Route,Link} from "react-router-dom"
-
-import Favs from "./components/favs.js"
+import "./styles/App.css"
+//import {Fav,myFavs} from "./components/favs.js"
 import Home from "./components/home.js"
 import Europe from "./components/Europe.js"
 import Cbean from "./components/Caribbean.js"
@@ -11,13 +11,46 @@ import Places from "./components/places.js"
 function App() {
   return (
    <div className="App">
+   
       <Router>
         <nav>
-          <Link to="/">Home</Link>
-          <Link to="places">Places</Link>
-          <Link to="Favs">Favs</Link>
+          
 
+        <div id="main-app-nav">
+
+
+				<div id="home"  >
+					
+					<Link to="/">     
+
+
+					   <img src= "images/house-red.png" id="house-icon"/>
+
+					</Link>
+				   
+				   
+				</div>
+
+
+			  
+				  <div id="locations" >
+						  
+					<Link to="places">  
+							   
+						<img src= "images/places-red.png" id='places-icon'/> 
+
+					  </Link>  
+
+				  </div>
+					 
+
+
+         
+
+				</div>
         </nav>
+		
+		
         <Routes>
 
           <Route path="/" element={<Home />}/>
@@ -25,12 +58,11 @@ function App() {
               <Route path="Europe" element={<Europe />}/>
               <Route path="Caribbean" element={<Cbean />}/>
               <Route path="Asia" element={<Asia />}/>
-         </Route>
-
-
-            <Route path="/favs" element={<Favs />} />
+         </Route>       
+			
         </Routes>
      </Router>
+	 
     </div>
 
     );
